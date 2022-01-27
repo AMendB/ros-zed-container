@@ -1,8 +1,8 @@
 # Based on https://gitlab.com/nvidia/container-images/l4t-base/-/blob/master/Dockerfile.l4t
 # https://github.com/dusty-nv/jetson-containers/blob/master/Dockerfile.ros.foxy
 # https://github.com/codustry/jetson-containers/blob/master/Dockerfile.ros.foxy
-ARG L4T_MINOR_VERSION=5.0
-FROM codustry/ros:foxy-ros-base-l4t-r32.${L4T_MINOR_VERSION}
+
+FROM lomori/foxy-ros-base-l4t-r32.6.1
 
 #
 # ZED Jet
